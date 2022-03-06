@@ -19,22 +19,22 @@ body {
 }
 
 .rectangle {
-    height: 400px;
-    width: 255px;
+    height: 570px;
+    width: 382px; 
     background-color: hsl(0, 0%, 100%);
-    padding-left: 12.5px;
-    padding-right: 12.5px;
-    padding-top: 12.5px;
-    border-radius: 12px;
+    padding-left: 25.5px;
+    padding-right: 25.5px;
+    padding-top: 25.5px;
+    border-radius: 18px;
     text-align:center;
 
     box-shadow: 0 0.5em 1em hsla(220, 18%, 64%, 0.424);
 }
 
 img {
-    height: 220px;
-    width: 230px;
-    border-radius: 12px;
+    height: 330px;
+    width: 330px;
+    border-radius: 14px;
     margin-bottom: 14px;
 }
 
@@ -44,14 +44,14 @@ p, h2 {
 }
 
 h2 {
-    margin-bottom: 12px;
-    font-size: 18px;
+    margin-bottom: 20px;
+    font-size: 24px;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
 }
 
 p {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
 }
