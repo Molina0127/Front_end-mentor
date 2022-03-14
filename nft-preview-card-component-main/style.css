@@ -42,6 +42,12 @@ img#equi {
     border-radius: 16px;
 } 
 
+img#avatar {
+    height: 50px;
+    width: 50px;
+    display: flex-start;
+}
+
 div#attr {
     display: flex;
     justify-content: space-between;
@@ -52,13 +58,21 @@ h1 {
     margin-bottom: 20px;
 }
 
-p {
+h2 {
+    align-items: center;
+}
+
+p.desc{
     color: var(--soft-blue);
     margin-bottom: 20px;
 }
 
-p#creation {
+span#creation {
     color: var(--white);
+}
+
+span#author {
+    color: var(--soft-blue);
 }
 
 span#value {
@@ -68,3 +82,9 @@ span#value {
 span#date {
     color: var(--soft-blue);
 }
+
+footer {
+    margin-top: 20px;
+    display: flex;
+}
+
