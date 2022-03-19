@@ -43,8 +43,8 @@ img#equi {
 } 
 
 img#avatar {
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     display: flex-start;
     border-radius: 50%;
     border: 1px solid white;
@@ -74,6 +74,10 @@ p.desc{
     font-weight: 300;
 }
 
+p {
+    font-weight: 400;
+}
+
 span#creation {
     color: var(--soft-blue);
     margin-right: 8px;
@@ -95,11 +99,15 @@ span#date {
     color: var(--soft-blue);
 }
 
+svg {
+    margin-right: 10px;
+}
+
 hr.separator {
     margin-top: 20px;
     height: 0.1px;
     border: 0.1px solid hsl(215, 51%, 70%);
-    opacity: 20%;
+    opacity: 15%;
 }
 
 footer {
