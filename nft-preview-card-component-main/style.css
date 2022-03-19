@@ -28,8 +28,8 @@ body {
 }
 
 div.box {
-    border-radius: 20px;
-    height: 600px;
+    border-radius: 18px;
+    height: 580px;
     width: 340px;
     background-color: var(--card-bg-color);
     padding: 25px;
@@ -57,6 +57,7 @@ div#attr {
 
 h1 {
     color: var(--white);
+    font-size: 21px;
     margin-bottom: 20px;
     font-weight: 600;
 }
@@ -72,15 +73,18 @@ p.desc{
     color: var(--soft-blue);
     margin-bottom: 20px;
     font-weight: 300;
+    opacity: 90%;
 }
 
 p {
     font-weight: 400;
+    opacity: 90%;
 }
 
 span#creation {
     color: var(--soft-blue);
     margin-right: 8px;
+    opacity: 90%;
 }
 
 span#author {
