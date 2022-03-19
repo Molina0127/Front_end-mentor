@@ -131,6 +131,7 @@ span#author.activate:hover{
 }
 
 img#equi.activate:hover{
-    filter: hue-rotate(178deg);
+    filter: hue-rotate(100deg);
+    
 }
 
