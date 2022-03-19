@@ -40,7 +40,7 @@ img#equi {
     width: 290px;
     border-radius: 10px;
     margin-bottom: 20px;
-} 
+}
 
 img#avatar {
     height: 35px;
@@ -113,11 +113,24 @@ hr.separator {
     margin-top: 20px;
     height: 0.1px;
     border: 0.1px solid hsl(215, 51%, 70%);
-    opacity: 15%;
+    opacity: 15%; /*Essa propriedade foi muito importante para resolver o exercício*/
 }
 
 footer {
     margin-top: 20px;
     display: flex;
+}
+
+.activate:hover{
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+span#author.activate:hover{
+    color: var(--cyan);
+}
+
+img#equi.activate:hover{
+    filter: hue-rotate(178deg);
 }
 
