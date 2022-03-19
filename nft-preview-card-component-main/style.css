@@ -28,18 +28,18 @@ body {
 }
 
 div.box {
-    border: 1px solid black;
     border-radius: 20px;
     height: 600px;
-    width: 380px;
+    width: 340px;
     background-color: var(--card-bg-color);
-    padding: 20px;
+    padding: 25px;
 }
 
 img#equi {
-    height: 340px;
-    width: 340px;
-    border-radius: 16px;
+    height: 290px;
+    width: 290px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 } 
 
 img#avatar {
@@ -58,6 +58,7 @@ div#attr {
 h1 {
     color: var(--white);
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 h2 {
@@ -70,7 +71,7 @@ h2 {
 p.desc{
     color: var(--soft-blue);
     margin-bottom: 20px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 span#creation {
@@ -83,14 +84,19 @@ span#author {
 }
 
 span#value {
+    display: flex;
+    align-items: center;
     color: var(--cyan);
 }
 
 span#date {
+    display: flex;
+    align-items: center;
     color: var(--soft-blue);
 }
 
 hr.separator {
+    margin-top: 20px;
     height: 0.1px;
     border: 0.1px solid hsl(215, 51%, 70%);
     opacity: 20%;
