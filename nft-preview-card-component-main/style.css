@@ -48,10 +48,11 @@ div.box {
     z-index: 999;
     border-radius: 10px;
     opacity: 0;
+    transition: 0.2s;
 }
 
 .main-image div:hover {
-    opacity: 1;
+    opacity: 1;  
 }
 
 .main-image div img {
@@ -86,6 +87,7 @@ h1 {
     font-size: 21px;
     margin-bottom: 20px;
     font-weight: 600;
+    transition: 0.2s;
 }
 
 h2 {
@@ -112,6 +114,7 @@ span#creation {
     color: var(--soft-blue);
     margin-right: 5.5px;
     opacity: 90%;
+    transition: 0.2s;
 }
 
 span#author {
