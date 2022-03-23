@@ -154,9 +154,16 @@ footer {
 .activate:hover{
     color: var(--cyan);
     cursor: pointer;
+    transition: 0.2s;
 }
 
-span#author.activate:hover{
-    color: var(--cyan);
+span#author {
+    color: var(--white)
 }
+
+span#author:hover{
+    color: var(--cyan);
+    transition: 0.2s;
+}
+
 
